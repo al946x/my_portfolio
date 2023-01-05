@@ -5,41 +5,87 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Alina Zenam | Web Developer</title>
+  <link rel="icon" href="assets/images/Avatar.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 
 <body>
   <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
+  <header> 
+    <a href="#home"><h1>Alina Zenam</h1></a>
     <nav>
+    <a href="#about">About Me</a>
+    <a href="#work">My Work</a>
+    <a href="#contact">Contact Me</a>
     </nav>
   </header>
+ 
 
   <!-- hero banner -->
-  <section class="hero-banner">
+  <section class="hero-banner" id="home">
     <div>
-      <h2>Cool subtitle here!</h2>
+      <p>Hi, I'm Alina Zenam!</p>
+       <h2> Front End Developer Waiting to Create Your Next Website </h2>
+      <a href="#contact">Contact Me</a>
     </div>
+    <figure> 
+     <img src="assets/images/Avatar.jpg" alt="Cartoon Avatar">
+    </figure> 
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
       <h2>About Me</h2>
+      <p> Aspiring front end web developer determined to become versed in HTML, CSS and Javascript. Passionate about creating, developing and producing unique web applications. Intending to learn and implement a variety of coding languages and relevant programming skills to secure a front end web developer role.  </p>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
+      <h2>My Work</h2>
+      <section class="portfolio">
+      <div class="Bootcamp">
+        <a href="https://al946x.github.io/Challenge_1/" target="_blank">
+          <h3>Bootcamp Challenge 1: Refactor Code</h3>
+          <p>In this challenge we were required to ensure: Semantic HTML elements can be found throughout the source code, HTML elements follow a logical structure independent of styling and positioning, Image and icon elements contain accessible alt attributes, Heading attributes fall in sequential order and Title elements contain a concise, descriptive title</p>
+        </a>
+      </div>
+      <div class="Dummy image">
+        <a href="https://dummyimage.com/600x400/000/fff" target="_blank">
+          <h3> Project 2 </h3>
+        </a>
+      </div>
+      <div class="Dummy image">
+        <a href="https://dummyimage.com/600x400/000/fff" target="_blank">
+          <h3> Project 3 </h3>
+        </a>
+      </div>
+      <div class="Dummy image">
+        <a href="https://dummyimage.com/600x400/000/fff" target="_blank">
+          <h3> Project 4 </h3>
+        </a>
+      </div>
+      <div class="contact">
+        <a href="https://dummyimage.com/600x400/000/fff">
+          <h3> READY TO CREATE YOUR OWN WEBSITE?</h3>
+          <p> Contact me and we can begin! </p>
+        </a>
+      </div>
+      </section>
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
       <h2>Contact Me</h2>
+      <nav>
+        <a href="mailto:alina.zenam@hotmail.com" target="_blank">alina.zenam@hotmail.com</a>
+        <a href="https://github.com/al946x" target="_blank">Git Hub</a>
+      </nav>
     </section>
   </main>
+  </section>
 </body>
 
 </html>
