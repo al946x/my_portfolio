@@ -126,28 +126,25 @@ main {
   font-size: 2rem;
 }
  
-#about {
+
+#about, #work, #contact{
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
 }
 
-#work,
-#contact {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-}
+
+
+
+
+
 
 #about p {
   border-left: 3px solid #5A6955;
-  padding-left: 3%;
-  margin-left: 15%;
+  padding-left: 2%;
+  margin-right: 15%;
 }
 
-#about {
-  display: grid;
-  grid-template: auto auto / 2fr;
-  margin-bottom: 5%;
-}
+
 
 #work {
   margin: 3% 0;
@@ -194,6 +191,7 @@ main {
 .portfolio div a span {
   align-self: flex-end;
 }
+
 
 #contact nav {
   display: flex;
