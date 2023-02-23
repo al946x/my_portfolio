@@ -1,6 +1,6 @@
 # my_portfolio
 # Description 
-This is my personal portfolio which has been created using HTML and CSS as required by the guidlines for this challenge in my front end web development bootcamp. This portfolio will be updated with my completed projects once I have finished the course. 
+This is my personal portfolio which has been created using HTML and CSS. It includes the following sections: About Me, My Work and Contact Me.
 [Link to the deployed project](https://al946x.github.io/my_portfolio/)
 
 # Screenshot 
